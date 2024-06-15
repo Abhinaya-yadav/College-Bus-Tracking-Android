@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context=".view.AddStudent"
+    android:background="@drawable/bg4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#B209CF"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Student Details"
+            android:gravity="center"
+
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#AB1AC5"/>
+
+        <EditText
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter Name"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:id="@+id/studentName"/>
+
+        <EditText
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter Roll Number"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+
+            android:id="@+id/studentRollNumber"/>
+
+        <TextView
+            android:textColor="#B00BF0"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choose your Branch"
+            android:gravity="center"/>
+        <RadioGroup
+            android:id="@+id/radiogroupbranch"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radiobranch1"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="CSE"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/radiobranch2"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ECE"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/radiobranch3"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CIVIL"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/radiobranch4"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="MECH"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/radiobranch5"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="IT"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/radiobranch6"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="EEE"
+                android:textSize="20dp"/>
+
+        </RadioGroup>
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/radiogroupbranch"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="20dp">-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radiobranch1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:checked="true"-->
+<!--                android:text="CSE"-->
+<!--                />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radiobranch2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="ECE" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radiobranch3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="CIVIL" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radiobranch4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1.1"-->
+<!--                android:text="MECH" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radiobranch5"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1.1"-->
+<!--                android:text="IT" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radiobranch6"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1.1"-->
+<!--                android:text="EEE" />-->
+
+<!--        </RadioGroup>-->
+
+        <TextView
+            android:textColor="#B00BF0"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choose your Year"
+            android:gravity="center"
+            android:textSize="25dp"/>
+        <RadioGroup
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroupyear">
+            <RadioButton
+                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20dp"
+                android:id="@+id/radioyear1"
+                />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="20dp"
+                android:id="@+id/radioyear2"
+                />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="20dp"
+                android:id="@+id/radioyear3"
+                />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="20dp"
+                android:id="@+id/radioyear4"
+                />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter Section"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:id="@+id/studentSection"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:hint="Enter User Password"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:inputType="textPassword"
+            android:id="@+id/studentPassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:hint="Retype Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:id="@+id/studentConPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerButton"
+            android:padding="20dp"
+            android:background="@drawable/custom_button_shape"
+            android:textSize="20dp"
+            android:text="r e g i s t e r    n o w" />
+    </LinearLayout>
+</ScrollView>

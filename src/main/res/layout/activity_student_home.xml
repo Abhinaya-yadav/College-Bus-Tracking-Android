@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.StudentHome"
+    android:background="@drawable/bg4">
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Bus Number"
+        android:textStyle="bold|italic"
+        android:id="@+id/studentsearchbusno"/>
+
+    <Button
+        android:id="@+id/studentsearchbus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Bus"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_button_shape"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/studentpayamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Amount"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_button_shape"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/studentlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_button_shape"
+        android:textColor="@color/white"/>
+
+<!--    <EditText-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Bus Number"-->
+<!--        android:id="@+id/studentsearchbusno"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/studentsearchbus"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Search Bus"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_margin="12dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/studentpayamount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Pay Amount"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_margin="12dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/studentlogout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Logout"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_margin="12dp"/>-->
+
+</LinearLayout>

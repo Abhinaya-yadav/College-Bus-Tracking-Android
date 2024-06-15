@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CollegeBusTracking</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="label_buy_now">Pay Now</string>
+</resources>

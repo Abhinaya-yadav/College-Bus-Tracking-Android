@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AddVehicle"
+    android:background="@drawable/bg4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle Number"
+            android:id="@+id/addvehicleno"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver User Name"
+            android:id="@+id/addvehicleusername"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver Password"
+            android:id="@+id/addvehiclepassword"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver Mobile Number"
+            android:id="@+id/addvehiclemobilenumber"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Source"
+            android:id="@+id/addvehiclesource"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Destination"
+            android:id="@+id/addvehicledestination"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/addVehicleButton"
+            android:text="Add Vehicle"
+            android:textSize="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_shape"/>
+
+    </LinearLayout>
+
+</ScrollView>

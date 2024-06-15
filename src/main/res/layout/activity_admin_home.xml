@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AdminHome"
+    android:background="@drawable/bg4">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/adminaddvehicle"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Vehicle"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_shape"/>
+
+        <Button
+            android:id="@+id/adminviewvehicles"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Vehicles"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_shape"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/addstudent"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Add Student"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/custom_button_shape"/>-->
+
+        <Button
+            android:id="@+id/viewstudents"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Students"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_shape"/>
+
+        <Button
+            android:id="@+id/adminrestfees"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset Fees"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_shape"/>
+
+        <Button
+            android:id="@+id/adminlogout"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_shape"/>
+
+    </LinearLayout>
+
+</ScrollView>
